@@ -1,0 +1,137 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\..\Nez\Nez.PipelineImporter\bin\Debug\Ionic.ZLib.dll
+/reference:..\..\Nez\Nez.PipelineImporter\bin\Debug\Newtonsoft.Json.dll
+/reference:..\..\Nez\Nez.PipelineImporter\bin\Debug\Nez.PipelineImporter.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Assets/Maps/Castillo/castillo1.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:Assets/Maps/Castillo/castillo1.tmx
+
+#begin Assets/Maps/Castillo/castle_tileset_part1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Assets/Maps/Castillo/castle_tileset_part1.png
+
+#begin Assets/Maps/Castillo/castle_tileset_part2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Assets/Maps/Castillo/castle_tileset_part2.png
+
+#begin Assets/Maps/Castillo/castle_tileset_part3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Assets/Maps/Castillo/castle_tileset_part3.png
+
+#begin Assets/Interactuables/Coin 32x32.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Assets/Interactuables/Coin 32x32.png
+
+#begin Assets/Characters/Main.xml
+/importer:XmlImporter
+/processor:TextureAtlasProcessor
+/processorParam:compressTexture=False
+/processorParam:animationFPS=10
+/processorParam:flattenPaths=True
+/build:Assets/Characters/Main.xml
+
+#begin Assets/Maps/Castillo/ToxicSludgeRed_dbl-e.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Assets/Maps/Castillo/ToxicSludgeRed_dbl-e.png
+
+#begin Assets/Characters/Snake.xml
+/importer:XmlImporter
+/processor:TextureAtlasProcessor
+/processorParam:compressTexture=False
+/processorParam:animationFPS=10
+/processorParam:flattenPaths=True
+/build:Assets/Characters/Snake.xml
+
+#begin Assets/Throwables/tile009.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Assets/Throwables/tile009.png
+
+#begin Assets/Songs/Dark Ambient.wav
+/importer:WavImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Assets/Songs/Dark Ambient.wav
+
+#begin Assets/Songs/Fun.wav
+/importer:WavImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Assets/Songs/Fun.wav
+
+#begin Assets/Songs/Intro.wav
+/importer:WavImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:Assets/Songs/Intro.wav
+
+#begin Assets/Characters/Boss.xml
+/importer:XmlImporter
+/processor:TextureAtlasProcessor
+/processorParam:compressTexture=False
+/processorParam:animationFPS=10
+/processorParam:flattenPaths=True
+/build:Assets/Characters/Boss.xml
+
